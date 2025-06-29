@@ -21,7 +21,7 @@ This project implements an **8-bit Arithmetic Logic Unit (ALU)** in Verilog. It 
 | `opcode[2:1]` | `opcode[0]` | Operation         |
 |---------------|-------------|-------------------|
 | `00`          | `0`         | Addition (A + B + Cin) |
-| `00`          | `1`         | Subtraction (A - B)    |
+| `00`          | `1`         | Subtraction (A - B - Bin)    |
 | `01`          | `0`         | AND (A & B)       |
 | `01`          | `1`         | OR (A \| B)        |
 | `10`          | `0`         | Shift Left (A << 1) |
